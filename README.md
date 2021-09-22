@@ -35,30 +35,7 @@ import threading
 import secrets,uuid
 from colorama import Fore, Style
 from time import sleep
-from datetime import datetime
-from secrets import token_hex
-try:
-    import requests
-except ImportError:
-    os.system('pip install requests')
-    import requests
-    clear()
-try:
-    from colored import fg
-except ImportError:
-    os.system('pip install colored')
-    from colored import fg
-    clear()
-try:
-    from uuid import uuid4
-except ImportError:
-    os.system('pip install uuid')
-    from uuid import uuid4
-    clear()
-try:
-    import random
-except ImportError:
-    os.system('pip install random')
+
     import random
 def close():
     input('- Press Enter To Exit /')
