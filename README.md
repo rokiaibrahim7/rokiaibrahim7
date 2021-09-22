@@ -136,12 +136,12 @@ F = '\033[2;32m' #Ø§Ø®Ø¶Ø±
 A = '\033[2;39m' #Ø§Ø²Ø±Ù‚
 C = '\033[2;35m' #ÙˆØ±Ø¯ÙŠ
 B = '\033[2;36m'#Ø³Ù…Ø§Ø¦ÙŠ
-pess = input(F + ' Enter Your Password: ')
-webbrowser.open('https://t.me/TuIks1/1516')
+pess = input (F + ' Enter Your Password: ')
+webbrowser.open ('https://t.me/TuIks1/1516')
 if pess == Alosh:
     print(B+ ' Success Password ')
     time.sleep(2)
-    os.system('clear')
+    os.system ('clear')
 else:
     exit(Z + ' Worng Password ')
 alosh = """
